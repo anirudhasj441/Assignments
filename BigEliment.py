@@ -1,4 +1,6 @@
 def bigEliment(li):
+	'''Returns the bigest eliment 
+	from given list'''
 	for i in range(len(li)):
 		for j in range(i+1,len(li)):
 			if li[i]<li[j]:
